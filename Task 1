@@ -1,0 +1,11 @@
+let age = parseInt(prompt("Enter your age: "));
+
+if (age > 18){
+    console.log("Candidate elegible for vote ");    
+} 
+else if(age == 17 || age < 16){
+    console.log("Candidate is not qualify for vote");
+}
+ else {
+  console.log("Candidate is now todler");
+}
